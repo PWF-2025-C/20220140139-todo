@@ -1,30 +1,30 @@
-<h2><strong>Bukti Screenshot</strong></h2>
+<h2><strong>Bukti Screenshot Praktikum 2</strong></h2>
 
 <p><strong>Terminal – command yang sudah dieksekusi</strong></p>
 
 ![image](https://github.com/user-attachments/assets/f421eaab-1cb9-4cb7-bf85-c6b236a22d4a)
 
-<p><strong>Browser – http://nim-todo.test/todo - Desktop</strong></p>
+<p><strong>Browser – http://20220140139-todo.test/todo - Desktop</strong></p>
 
 ![image](https://github.com/user-attachments/assets/b25e4fc0-4c7f-4703-b5c9-ed869db4f8b0)
 
-<p><strong>Browser – http://nim-todo.test/todo - Mobile View</strong></p>
+<p><strong>Browser – http://20220140139-todo.test/todo - Mobile View</strong></p>
 
 ![image](https://github.com/user-attachments/assets/7adc9466-5d3d-4307-a49f-f68459b6953c)
 
-<p><strong>Browser – http://nim-todo.test/user - Desktop</strong></p>
+<p><strong>Browser – http://20220140139-todo.test/user - Desktop</strong></p>
 
 ![image](https://github.com/user-attachments/assets/be065655-c05e-4868-88d0-fcb54fe82680)
 
-<p><strong>Browser – http://nim-todo.test/user - Mobile View</strong></p>
+<p><strong>Browser – http://20220140139-todo.test/user - Mobile View</strong></p>
 
 ![image](https://github.com/user-attachments/assets/4ad42be9-96e8-437d-8e10-9fddf066e23a)
 
-<p><strong>Browser – http://nim-todo.test/todo/create - Desktop</strong></p>
+<p><strong>Browser – http://20220140139-todo.test/todo/create - Desktop</strong></p>
 
 ![image](https://github.com/user-attachments/assets/1f28004a-0a27-4d66-a2e2-95cf3bc29b85)
 
-<p><strong>Browser – http://nim-todo.test/todo/edit - Desktop</strong></p>
+<p><strong>Browser – http://20220140139-todo.test/todo/edit - Desktop</strong></p>
 
 ![image](https://github.com/user-attachments/assets/eb420979-e093-49f5-a768-294bf912a395)
 
