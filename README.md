@@ -1,5 +1,3 @@
-<h2><strong>Bukti Screenshot Praktikum 1-3</strong></h2>
-
 <h2><strong>migration, database seeder, factory</strong></h2>
 
 <p><strong>Terminal – command yang sudah dieksekusi</strong></p>
