@@ -24,6 +24,8 @@
 
 ![image](https://github.com/user-attachments/assets/f6adf356-16c7-4e29-a343-8c4983f408ec)
 
+<h2><strong>env, mvc, route, relationship</strong></h2>
+
 <p><strong>Terminal – command yang sudah dieksekusi</strong></p>
 
 ![image](https://github.com/user-attachments/assets/f421eaab-1cb9-4cb7-bf85-c6b236a22d4a)
