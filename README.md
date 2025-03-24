@@ -1,4 +1,28 @@
-<h2><strong>Bukti Screenshot Praktikum 2</strong></h2>
+<h2><strong>Bukti Screenshot Praktikum 1-3</strong></h2>
+
+<h2><strong>migration, database seeder, factory</strong></h2>
+
+<p><strong>Terminal – command yang sudah dieksekusi</strong></p>
+
+![image](https://github.com/user-attachments/assets/94401d98-af96-4b3d-be54-75cfd1afde38)
+
+![image](https://github.com/user-attachments/assets/4b6e0eeb-8064-4038-9ad7-37c78be6a571)
+
+<p><strong>DBMS – tabel user dan terdapat 101</strong></p>
+
+![image](https://github.com/user-attachments/assets/d6887b5f-d868-4047-8865-000f351c39ba)
+
+![image](https://github.com/user-attachments/assets/e294eb31-31f4-4ecd-b0ab-eb057a381439)
+
+<p><strong>DBMS – tabel todo dan data minimal 500 </strong></p>
+
+![image](https://github.com/user-attachments/assets/651e68c5-5bef-4c06-98d4-6170d6bec24c)
+
+![image](https://github.com/user-attachments/assets/70b1ab17-1f41-44f7-a01c-810ff0c9c2bc)
+
+<p><strong>Browser - http://20220140139-todo.test/todo tampilkan todos collection</strong></p>
+
+![image](https://github.com/user-attachments/assets/f6adf356-16c7-4e29-a343-8c4983f408ec)
 
 <p><strong>Terminal – command yang sudah dieksekusi</strong></p>
 
