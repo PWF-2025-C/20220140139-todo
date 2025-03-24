@@ -1,3 +1,62 @@
+<h2><strong>Bukti Screenshot Praktikum 2</strong></h2>
+
+<p><strong>Terminal – command yang sudah dieksekusi</strong></p>
+
+![image](https://github.com/user-attachments/assets/f421eaab-1cb9-4cb7-bf85-c6b236a22d4a)
+
+<p><strong>Browser – http://20220140139-todo.test/todo - Desktop</strong></p>
+
+![image](https://github.com/user-attachments/assets/b25e4fc0-4c7f-4703-b5c9-ed869db4f8b0)
+
+<p><strong>Browser – http://20220140139-todo.test/todo - Mobile View</strong></p>
+
+![image](https://github.com/user-attachments/assets/7adc9466-5d3d-4307-a49f-f68459b6953c)
+
+<p><strong>Browser – http://20220140139-todo.test/user - Desktop</strong></p>
+
+![image](https://github.com/user-attachments/assets/be065655-c05e-4868-88d0-fcb54fe82680)
+
+<p><strong>Browser – http://20220140139-todo.test/user - Mobile View</strong></p>
+
+![image](https://github.com/user-attachments/assets/4ad42be9-96e8-437d-8e10-9fddf066e23a)
+
+<p><strong>Browser – http://20220140139-todo.test/todo/create - Desktop</strong></p>
+
+![image](https://github.com/user-attachments/assets/1f28004a-0a27-4d66-a2e2-95cf3bc29b85)
+
+<p><strong>Browser – http://20220140139-todo.test/todo/edit - Desktop</strong></p>
+
+![image](https://github.com/user-attachments/assets/eb420979-e093-49f5-a768-294bf912a395)
+
+<p><strong>Sudah Instalasi Breeze</strong></p>
+
+![image](https://github.com/user-attachments/assets/ee2df180-1937-4bb0-819b-3cc6aa8d1fcd)
+
+<p><strong>web.php</strong></p>
+
+![image](https://github.com/user-attachments/assets/06d60bb8-6de3-40b9-b713-d5c48af733ff)
+
+<p><strong>Login dengan Admin</strong></p>
+
+![image](https://github.com/user-attachments/assets/47c8c37a-18f8-4151-8687-d9ff1cfbac06)
+
+<p><strong>Login dengan Nama Lengkap/User</strong></p>
+
+![image](https://github.com/user-attachments/assets/f6526bb6-f399-40ee-bccd-0386be5ac2c8)
+
+<p><strong>Database</strong></p>
+
+![image](https://github.com/user-attachments/assets/fb6dee3c-3400-4d3b-a249-071d9ccdb496)
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
