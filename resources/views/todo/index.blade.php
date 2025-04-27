@@ -54,7 +54,7 @@
                                             <span class="inline-block px-3 py-1 text-xs font-semibold text-blue-800 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300">
                                                 Ongoing
                                             </span>
-                                        @else
+                                        @else 
                                             <span class="inline-block px-3 py-1 text-xs font-semibold text-green-800 bg-green-100 rounded-full dark:bg-green-900 dark:text-green-300">
                                                 Completed
                                             </span>
@@ -73,6 +73,25 @@
                 Delete
             </button>
         </form>
+
+        {{-- Tombol Complete / Uncomplete --}}
+        @if (!$todo->is_done)
+            <form action="{{ route('todo.complete', $todo) }}" method="POST">
+                @csrf
+                @method('PATCH')
+                <button type="submit" class="text-green-600 hover:underline dark:text-green-400">
+                    Complete
+                </button>
+            </form>
+        @else
+            <form action="{{ route('todo.uncomplete', $todo) }}" method="POST">
+                @csrf
+                @method('PATCH')
+                <button type="submit" class="text-blue-600 hover:underline dark:text-blue-400">
+                    Uncomplete
+                </button>
+            </form>
+        @endif
     </div>
 </td>
                                 </tr>
@@ -86,6 +105,18 @@
                         </tbody>
                     </table>
                 </div>
+                @if ($todosCompleted > 1)
+    <div class="p-6 text-xl text-gray-900 dark:text-gray-100">
+        <form action="{{ route('todo.deleteallcompleted') }}" method="POST">
+            @csrf
+            @method('DELETE')
+            <x-primary-button>
+                Delete All Completed Task
+            </x-primary-button>
+        </form>
+    </div>
+@endif
+
             </div>
         </div>
     </div>
