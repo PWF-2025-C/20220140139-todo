@@ -22,7 +22,7 @@
 ![Alt text](screenshot/tugas6/Screenshot_todo_deleteallcompleted.jpg)
 
 ## 8. User Make Admin
-![Alt text](screenshot/tugas6/Screenshot_User_makeadmin.jpg)
+![Alt text](screenshot/tugas6/Screenshot_user_makeadmin.jpg)
 
 ## 9. User Remove Admin
 ![Alt text](screenshot/tugas6/Screenshot_user_removeadmin.jpg)
