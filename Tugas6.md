@@ -25,16 +25,16 @@
 ![Alt text](screenshot/tugas6/Screenshot_User_makeadmin.jpg)
 
 ## 9. User Remove Admin
-![Alt text](screenshot/tugas6/Screenshot_User_removeadmin.jpg)
+![Alt text](screenshot/tugas6/Screenshot_user_removeadmin.jpg)
 
 ## 10. User Delete
-![Alt text](screenshot/tugas6/Screenshot_User_delete.jpg)
+![Alt text](screenshot/tugas6/Screenshot_user_delete.jpg)
 
 ## 11. User Deleted
-![Alt text](screenshot/tugas6/Screenshot_User_deleted.jpg)
+![Alt text](screenshot/tugas6/Screenshot_user_deleted.jpg)
 
 ## 12. User Edit
-![Alt text](screenshot/tugas6/Screenshot_User_edit.jpg)
+![Alt text](screenshot/tugas6/Screenshot_user_edit.jpg)
 
 ## 13. User Edited
-![Alt text](screenshot/tugas6/Screenshot_User_edited.jpg)
+![Alt text](screenshot/tugas6/Screenshot_user_edited.jpg)
