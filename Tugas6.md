@@ -9,32 +9,32 @@
 ## 3. Todo Edit
 ![Alt text](screenshot/tugas6/Screenshot_todo_edit.jpg)
 
-## 4. Todo Edited
+## Todo Edited
 ![Alt text](screenshot/tugas6/Screenshot_todo_edited.jpg)
 
-## 5. Todo Delete
+## 4. Todo Delete
 ![Alt text](screenshot/tugas6/Screenshot_todo_delete.jpg)
 
-## 6. Todo Deleted
+## Todo Deleted
 ![Alt text](screenshot/tugas6/Screenshot_todo_deleted.jpg)
 
-## 7. Todo Deleted All Completed
+## 5. Todo Deleted All Completed
 ![Alt text](screenshot/tugas6/Screenshot_todo_deleteallcompleted.jpg)
 
-## 8. User Make Admin
+## 6. User Make Admin
 ![Alt text](screenshot/tugas6/Screenshot_user_makeadmin.jpg)
 
-## 9. User Remove Admin
+## 7. User Remove Admin
 ![Alt text](screenshot/tugas6/Screenshot_user_removeadmin.jpg)
 
-## 10. User Delete
+## 8. User Delete
 ![Alt text](screenshot/tugas6/Screenshot_user_delete.jpg)
 
-## 11. User Deleted
+## User Deleted
 ![Alt text](screenshot/tugas6/Screenshot_user_deleted.jpg)
 
-## 12. User Edit
+## 9. User Edit
 ![Alt text](screenshot/tugas6/Screenshot_user_edit.jpg)
 
-## 13. User Edited
+## User Edited
 ![Alt text](screenshot/tugas6/Screenshot_user_edited.jpg)
