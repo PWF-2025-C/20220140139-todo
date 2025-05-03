@@ -55,52 +55,52 @@ class UserController extends Controller
     }
 
     public function destroy(User $user)
-{
-    $user->delete(); 
-    return redirect()->route('user.index')->with('success', 'Delete user successfully!');
-}
-
-public function edit(User $user)
-{
-    if (Auth::user()->id === $user->id || Auth::user()->is_admin) {
-        return view('user.edit', compact('user'));
-    } else {
-        return redirect()
-            ->route('user.index')
-            ->with('danger', 'You are not authorized to edit this user!');
-    }
-}
-
-public function update(Request $request, User $user)
-{
-    $rules = [
-        'name' => 'required|max:255',
-    ];
-
-    // Kalau admin boleh validasi email & password
-    if (Auth::user()->is_admin) {
-        $rules['email'] = 'required|email|max:255|unique:users,email,' . $user->id;
-        $rules['password'] = 'nullable|min:8';
+    {
+        $user->delete(); 
+        return redirect()->route('user.index')->with('success', 'Delete user successfully!');
     }
 
-    $validated = $request->validate($rules);
-
-    // Update name untuk semua user
-    $user->name = ucfirst($validated['name']);
-
-    // Kalau admin, update email dan password juga
-    if (Auth::user()->is_admin) {
-        $user->email = $validated['email'];
-
-        if (!empty($validated['password'])) {
-            $user->password = bcrypt($validated['password']);
+    public function edit(User $user)
+    {
+        if (Auth::user()->id === $user->id || Auth::user()->is_admin) {
+            return view('user.edit', compact('user'));
+        } else {
+            return redirect()
+                ->route('user.index')
+                ->with('danger', 'You are not authorized to edit this user!');
         }
     }
 
-    $user->save();
+    public function update(Request $request, User $user)
+    {
+        $rules = [
+            'name' => 'required|max:255',
+        ];
 
-    return redirect()
-        ->route('user.index')
-        ->with('success', 'User updated successfully!');
-}
+        // Kalau admin boleh validasi email & password
+        if (Auth::user()->is_admin) {
+            $rules['email'] = 'required|email|max:255|unique:users,email,' . $user->id;
+            $rules['password'] = 'nullable|min:8';
+        }
+
+        $validated = $request->validate($rules);
+
+        // Update name untuk semua user
+        $user->name = ucfirst($validated['name']);
+
+        // Kalau admin, update email dan password juga
+        if (Auth::user()->is_admin) {
+            $user->email = $validated['email'];
+
+            if (!empty($validated['password'])) {
+                $user->password = bcrypt($validated['password']);
+            }
+        }
+
+        $user->save();
+
+        return redirect()
+            ->route('user.index')
+            ->with('success', 'User updated successfully!');
+    }
 }
