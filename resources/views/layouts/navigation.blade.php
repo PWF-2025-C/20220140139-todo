@@ -26,6 +26,11 @@
                         {{ __('User') }}
                     </x-nav-link>
                     @endcan
+                    
+                    <x-nav-link :href="route('categories.index')" :active="request()->routeIs('categories.index')">
+                        {{ __('Category') }}
+                    </x-nav-link>
+                    
                 </div>
 
             <!-- Settings Dropdown -->
@@ -88,32 +93,10 @@
             <x-responsive-nav-link :href="route('user.index')" :active="request()->routeIs('user.index')">
             {{ __('User') }}
             </x-responsive-nav-link>
-        </div>
-    </div>
 
-        <!-- Responsive Settings Options -->
-        <div class="pt-4 pb-1 border-t border-gray-200 dark:border-gray-600">
-            <div class="px-4">
-                <div class="font-medium text-base text-gray-800 dark:text-gray-200">{{ Auth::user()->name }}</div>
-                <div class="font-medium text-sm text-gray-500">{{ Auth::user()->email }}</div>
-            </div>
-
-            <div class="mt-3 space-y-1">
-                <x-responsive-nav-link :href="route('profile.edit')">
-                    {{ __('Profile') }}
-                </x-responsive-nav-link>
-
-                <!-- Authentication -->
-                <form method="POST" action="{{ route('logout') }}">
-                    @csrf
-
-                    <x-responsive-nav-link :href="route('logout')"
-                            onclick="event.preventDefault();
-                                        this.closest('form').submit();">
-                        {{ __('Log Out') }}
-                    </x-responsive-nav-link>
-                </form>
-            </div>
+            <x-responsive-nav-link :href="route('categories.index')" :active="request()->routeIs('categories.index')">
+            {{ __('Category') }}
+            </x-responsive-nav-link>
         </div>
     </div>
 </nav>
