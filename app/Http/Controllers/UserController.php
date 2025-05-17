@@ -12,23 +12,21 @@ class UserController extends Controller
     {
         $search = $request->input('search');
 
+        $query = User::query()->where('id', '!=', 1);
+
         if ($search) {
-            $users = User::where(function ($query) use ($search) {
-                    $query->where('name', 'like', '%' . $search . '%')
-                          ->orWhere('email', 'like', '%' . $search . '%');
-                })
-                ->where('id', '!=', '1')
-                ->orderBy('name')
-                ->paginate(20)
-                ->withQueryString();
-        } else {
-            $users = User::where('id', '!=', '1')
-                ->orderBy('name')
-                ->paginate(10);
+            $query->where(function ($q) use ($search) {
+                $q->where('name', 'like', '%' . $search . '%')
+                    ->orWhere('email', 'like', '%' . $search . '%');
+            });
         }
+
+        // Hapus count(*) pagination & optimalkan relasi
+        $users = $query->with('todos')->orderBy('name')->paginate(10);
 
         return view('user.index', compact('users'));
     }
+
 
     public function makeadmin(User $user)
     {
@@ -56,7 +54,7 @@ class UserController extends Controller
 
     public function destroy(User $user)
     {
-        $user->delete(); 
+        $user->delete();
         return redirect()->route('user.index')->with('success', 'Delete user successfully!');
     }
 

@@ -16,15 +16,8 @@
                     @endif
 
                     <form class="flex items-center gap-3">
-                        <x-text-input 
-                            id="search" 
-                            name="search" 
-                            type="text" 
-                            class="w-5/6" 
-                            placeholder="Search by name or email ..." 
-                            value="{{ request('search') }}" 
-                            autofocus 
-                        />
+                        <x-text-input id="search" name="search" type="text" class="w-5/6"
+                            placeholder="Search by name or email ..." value="{{ request('search') }}" autofocus />
                         <x-primary-button type="submit">
                             {{ __('Search') }}
                         </x-primary-button>
@@ -37,16 +30,16 @@
 
                         @if (session('success'))
                             <p x-data="{ show: true }" x-show="show" x-transition
-                               x-init="setTimeout(() => show = false, 5000)"
-                               class="pb-3 text-sm text-green-600 dark:text-green-400">
+                                x-init="setTimeout(() => show = false, 5000)"
+                                class="pb-3 text-sm text-green-600 dark:text-green-400">
                                 {{ session('success') }}
                             </p>
                         @endif
 
                         @if (session('danger'))
                             <p x-data="{ show: true }" x-show="show" x-transition
-                               x-init="setTimeout(() => show = false, 5000)"
-                               class="pb-3 text-sm text-red-600 dark:text-red-400">
+                                x-init="setTimeout(() => show = false, 5000)"
+                                class="pb-3 text-sm text-red-600 dark:text-red-400">
                                 {{ session('danger') }}
                             </p>
                         @endif
@@ -55,7 +48,8 @@
 
                 <div class="relative overflow-x-aut0 flex justify center">
                     <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                        <thead class="text-s text-left text-gray-700  uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                        <thead
+                            class="text-s text-left text-gray-700  uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                             <tr>
                                 <th scope="col" class="px-6 py-4">Id</th>
                                 <th scope="col" class="px-6 py-4">Name</th>
@@ -67,7 +61,8 @@
                         <tbody>
                             @forelse ($users as $user)
                                 <tr class="odd:bg-white odd:dark:bg-gray-800 even:bg-gray-50 even:dark:bg-gray-700">
-                                    <td scope="row" class="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white">
+                                    <td scope="row"
+                                        class="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white">
                                         <p>{{ $user->id }}</p>
                                     </td>
                                     <td class="px-3 py-1 font-medium text-white md:whitespace-nowrap dark:text-white">
@@ -86,38 +81,42 @@
                                         </span>
                                     </td>
                                     <td class="px-6 py-4">
-    <div class="flex space-x-3">
-        {{-- Tombol Edit --}}
-        <a href="{{ route('user.edit', $user) }}" class="text-blue-500 hover:underline">Edit</a>
+                                        <div class="flex space-x-3">
+                                            {{-- Tombol Edit --}}
+                                            <a href="{{ route('user.edit', $user) }}"
+                                                class="text-blue-500 hover:underline">Edit</a>
 
-        {{-- Tombol Delete --}}
-        <form action="{{ route('user.destroy', $user) }}" method="POST" onsubmit="return confirm('Are you sure you want to delete this user?');">
-            @csrf
-            @method('DELETE')
-            <button type="submit" class="text-red-600 hover:underline">
-                Delete
-            </button>
-        </form>
+                                            {{-- Tombol Delete --}}
+                                            <form action="{{ route('user.destroy', $user) }}" method="POST"
+                                                onsubmit="return confirm('Are you sure you want to delete this user?');">
+                                                @csrf
+                                                @method('DELETE')
+                                                <button type="submit" class="text-red-600 hover:underline">
+                                                    Delete
+                                                </button>
+                                            </form>
 
-        @if ($user->is_admin)
-    <form action="{{ route('user.removeadmin', $user) }}" method="POST">
-        @csrf
-        @method('PATCH')
-        <button type="submit" class="text-blue-600 dark:text-blue-400 whitespace-nowrap">
-            Remove Admin
-        </button>
-    </form>
-@else
-    <form action="{{ route('user.makeadmin', $user) }}" method="POST">
-        @csrf
-        @method('PATCH')
-        <button type="submit" class="text-red-600 dark:text-red-400 whitespace-nowrap">
-            Make Admin
-        </button>
-    </form>
-@endif
-    </div>
-</td>
+                                            @if ($user->is_admin)
+                                                <form action="{{ route('user.removeadmin', $user) }}" method="POST">
+                                                    @csrf
+                                                    @method('PATCH')
+                                                    <button type="submit"
+                                                        class="text-blue-600 dark:text-blue-400 whitespace-nowrap">
+                                                        Remove Admin
+                                                    </button>
+                                                </form>
+                                            @else
+                                                <form action="{{ route('user.makeadmin', $user) }}" method="POST">
+                                                    @csrf
+                                                    @method('PATCH')
+                                                    <button type="submit"
+                                                        class="text-red-600 dark:text-red-400 whitespace-nowrap">
+                                                        Make Admin
+                                                    </button>
+                                                </form>
+                                            @endif
+                                        </div>
+                                    </td>
 
                                 </tr>
                             @empty
