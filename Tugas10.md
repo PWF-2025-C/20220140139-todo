@@ -1,6 +1,6 @@
 # Tugas 10
 
-## 1. Browsert Regsiter
+## 1. Browser Register
 ![Alt text](screenshot/tugas10/Screenshot_register.jpg)
 
 ## 2. Browser Category
