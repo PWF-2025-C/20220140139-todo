@@ -13,7 +13,6 @@ return new class extends Migration
     $table->foreignId('user_id')->constrained()->cascadeOnDelete(); // Relasi ke users
     $table->string('title');
     $table->boolean('is_done')->default(false);
-    $table->boolean('is_complete')->default(false);
     $table->timestamps();
 });
 

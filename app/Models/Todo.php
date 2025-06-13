@@ -19,7 +19,6 @@ class Todo extends Model
         'title',
         'user_id',
         'category_id',
-        'is_complete',
         'is_done'
     ];
 
@@ -41,7 +40,4 @@ class Todo extends Model
      *
      * @var array<string, string>
      */
-    protected $casts = [
-        'is_complete' => 'boolean',
-    ];
 }
