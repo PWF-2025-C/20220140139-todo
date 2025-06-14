@@ -1,19 +1,22 @@
 # Tugas 12
 
-## 1. Logout Pengguna dan Menghapus Token JWT
+## 1. Login Pengguna
+![Alt text](screenshot/tugas12/Screenshot_Login.jpg)
+
+## 2. Logout Pengguna dan Menghapus Token JWT
 ![Alt text](screenshot/tugas12/Screenshot_Logout.jpg)
 
-## 2. Get Todo Data
+## 3. Get Todo Data
 ![Alt text](screenshot/tugas12/Screenshot_Read.jpg)
 
-## 3. Create Todo Data
+## 4. Create Todo Data
 ![Alt text](screenshot/tugas12/Screenshot_Create.jpg)
 
-## 4. Update Todo Data
+## 5. Update Todo Data
 ![Alt text](screenshot/tugas12/Screenshot_Update.jpg)
 
-## 4. Search Todo Data
+## 6. Search Todo Data
 ![Alt text](screenshot/tugas12/Screenshot_Search.jpg)
 
-## 4. Delete Todo Data
+## 7. Delete Todo Data
 ![Alt text](screenshot/tugas12/Screenshot_Delete.jpg)
